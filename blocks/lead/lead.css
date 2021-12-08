@@ -1,0 +1,19 @@
+.lead {
+  max-width: 984px;
+  margin: 0 auto;
+}
+
+@media screen and (max-width: 1050px) {
+  /* стили для планшета в альбомной ориентации */
+  .lead {
+    padding:0 48px;
+  }
+}
+
+@media screen and (max-width: 780px) {
+  /* стили для планшета */
+  .lead {
+    margin: 0;
+    padding: 0;
+  }
+}

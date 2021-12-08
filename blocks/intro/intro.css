@@ -1,0 +1,26 @@
+.intro {
+  max-width: 984px;
+  margin: 0 auto;
+  padding-top: 92px;
+}
+
+@media screen and (max-width: 1050px) {
+  /* стили для планшета в альбомной ориентации */
+  .intro {
+    max-width: 928px;
+    padding: 92px 48px 0;
+  }
+}
+@media screen and (max-width: 780px) {
+  /* стили для планшета */
+  .intro {
+    padding: 88px 24px 0;
+  }
+}
+
+@media screen and (max-width: 350px) {
+  /* стили для малого смартфона */
+  .intro {
+    padding: 64px 16px 0;
+  }
+}

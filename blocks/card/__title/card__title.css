@@ -1,0 +1,23 @@
+.card__title {
+  margin-block: 0;
+  font-weight: 900;
+  font-size: 72px;
+  line-height: 106%;
+}
+
+@media screen and (max-width: 780px) {
+  /* стили для планшета */
+  .card__title {
+    font-size: 42px;
+    line-height: 110%;
+  }
+}
+
+@media screen and (max-width: 350px) {
+  /* стили для малого смартфона */
+  .card__title {
+    padding: 0 16px;
+    font-size: 32px;
+    line-height: 109%;
+  }
+}

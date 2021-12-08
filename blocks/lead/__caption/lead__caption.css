@@ -1,0 +1,22 @@
+.lead__caption {
+  font-size: 10px;
+  line-height: 140%;
+  letter-spacing: 1.5px;
+  text-transform: uppercase;
+  margin-block: 0;
+  padding-top: 8px;
+}
+
+@media screen and (max-width: 780px) {
+  /* стили для малого смартфона */
+  .lead__caption {
+    padding: 8px 24px 0;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  /* стили для малого смартфона */
+  .lead__caption {
+    padding: 8px 16px 0;
+  }
+}

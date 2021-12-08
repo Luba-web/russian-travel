@@ -1,0 +1,24 @@
+.cover {
+  position: relative;
+  margin: 12px 48px 0;
+}
+
+@media screen and (max-width: 1050px) {
+  /* стили для маленького монитора */
+  .cover {
+    margin: 12px 0 0;
+  }
+}
+@media screen and (max-width: 780px) {
+  /* стили для планшета */
+  .cover {
+    margin: 7px 0 0;
+  }
+}
+
+@media screen and (max-width: 350px) {
+  /* стили для малого смартфона */
+  .cover {
+    margin: 0;
+  }
+}

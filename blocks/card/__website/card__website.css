@@ -1,0 +1,13 @@
+.card__website {
+  color: #8a8a8a;
+  align-self: end;
+  font-size: 12px;
+  line-height: 100%;
+}
+
+@media screen and (max-width: 350px) {
+  /* стили для малого смартфона */
+  .card__website {
+    padding: 0 16px;
+  }
+}

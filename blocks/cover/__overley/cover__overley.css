@@ -1,0 +1,12 @@
+.cover__overley {
+  background-image: url(../../../images/cover__background.jpg);
+  background-position: center;
+  background-size: cover;
+  display: block;
+  opacity: 0.8;
+  padding-top: calc(740 / 1184 * 100%);
+}
+
+.cover__overley:hover {
+  opacity: 0.3;
+}

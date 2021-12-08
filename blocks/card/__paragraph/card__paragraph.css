@@ -1,0 +1,23 @@
+.card__paragraph {
+  margin-block: 0;
+  margin: 0;
+}
+
+/* добавили отступ в 2 параграфе*/
+.card__paragraph:nth-of-type(2n) {
+  padding-top: 26px;
+}
+
+@media screen and (max-width: 1024px) {
+  /* стили для маленького монитора */
+.card__paragraph:nth-of-type(2n) {
+  padding-top: 27px;
+}
+}
+
+@media screen and (max-width: 780px) {
+  /* стили для планшета */
+.card__paragraph:nth-of-type(2n) {
+  padding-top: 25px;
+}
+}

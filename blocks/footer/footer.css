@@ -1,0 +1,33 @@
+.footer {
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-between;
+  padding: 92px 48px 24px;
+}
+
+@media screen and (max-width: 768px) {
+  /* стили для планшета */
+  .footer {
+    padding: 88px 24px 24px;
+  }
+}
+
+@media screen and (max-width: 660px) {
+  /* стили для малого смартфона */
+  .footer {
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    padding: 64px 16px 24px;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  /* стили для малого смартфона */
+  .footer {
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    padding: 64px 16px 24px;
+  }
+}

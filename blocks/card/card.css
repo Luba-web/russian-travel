@@ -1,0 +1,33 @@
+.card {
+  display: grid;
+  grid-template-rows: minmax(min-content, max-content) 1fr;
+  grid-template-columns: minmax(min-content, 460px) 1fr;
+  grid-gap: 48px 40px;
+  padding-bottom: 80px;
+  justify-items: stretch;
+}
+
+@media screen and (max-width: 1050px) {
+  /* стили для планшета в альбомной ориентации */
+  .card {
+    grid-template-columns: minmax(min-content, 440px) 1fr;
+    grid-gap: 48px 32px;
+  }
+}
+@media screen and (max-width: 840px) {
+  /* стили для планшета */
+  .card {
+    grid-template-columns: minmax(min-content, 340px) 1fr;
+    grid-gap: 48px 28px;
+    padding-bottom: 73px;
+  }
+}
+@media screen and (max-width: 580px) {
+  /* стили для широкого смартфона */
+  .card {
+    grid-template-columns: minmax(min-content, 1fr) 1fr;
+    grid-template-columns: none;
+    gap: 32px;
+    padding-bottom: 0;
+  }
+}

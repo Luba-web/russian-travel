@@ -1,0 +1,32 @@
+.footer__link {
+  margin-right: 18px;
+  color: #fff;
+  text-decoration: none;
+}
+
+.footer__link:hover {
+  opacity: 0.8;
+}
+
+@media screen and (max-width: 800px) {
+  /* стили для малого смартфона */
+  .footer__link {
+    margin-left: 0;
+    padding-bottom: 12px;
+    display: block;
+  }
+}
+
+@media screen and (max-width: 660px) {
+  /* стили для малого смартфона */
+  .footer__link {
+    padding-bottom: 24px;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  /* стили для малого смартфона */
+  .footer__link {
+    padding-bottom: 36px;
+  }
+}

@@ -1,0 +1,19 @@
+.card__text {
+  font-size: 18px;
+  line-height: 163%;
+}
+
+@media screen and (max-width: 780px) {
+  /* стили для планшета */
+  .card__text {
+    font-size: 16px;
+    line-height: 163%;
+  }
+}
+
+@media screen and (max-width: 350px) {
+  /* стили для малого смартфона */
+  .card__text {
+    padding: 0 16px;
+  }
+}
