@@ -17,16 +17,16 @@
   }
 }
 
-@media screen and (max-width: 660px) {
+@media screen and (max-width: 470px) {
   /* стили для малого смартфона */
   .footer__link {
     padding-bottom: 24px;
   }
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 350px) {
   /* стили для малого смартфона */
   .footer__link {
-    padding-bottom: 36px;
+    padding-bottom: 32px;
   }
 }

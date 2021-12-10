@@ -13,14 +13,14 @@
   }
 }
 
-@media screen and (max-width: 780px) {
+@media screen and (max-width: 768px) {
   /* стили для планшета */
   .places {
     padding: 88px 24px 0;
   }
 }
 
-@media screen and (max-width: 350px) {
+@media screen and (max-width: 470px) {
   /* стили для малого смартфона */
   .places {
     padding: 64px 0 0;

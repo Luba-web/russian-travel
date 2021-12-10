@@ -8,14 +8,7 @@
   line-height: 107%;
 }
 
-@media screen and (max-width: 1050px) {
-  /* стили для планшета */
-  .intro__title {
-    line-height: 100%;
-  }
-}
-
-@media screen and (max-width: 425px) {
+@media screen and (max-width: 470px) {
   /* стили для малого смартфона */
   .intro__title {
     font-size: 32px;

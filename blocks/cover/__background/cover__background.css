@@ -1,8 +1,18 @@
 .cover__background {
-  color: #fff;
-  text-decoration: none;
+  position: relative;
+}
+
+.cover__background::before {
+  content:'';
   position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%)
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: #2a2c2f3a;
+  display: block;
+}
+
+.cover__background:hover:before {
+  background: #2a2c2f8a;
 }

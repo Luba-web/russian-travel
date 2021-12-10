@@ -15,7 +15,7 @@
 }
 }
 
-@media screen and (max-width: 780px) {
+@media screen and (max-width: 768px) {
   /* стили для планшета */
 .card__paragraph:nth-of-type(2n) {
   padding-top: 25px;

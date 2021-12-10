@@ -1,3 +1,6 @@
 .header__list {
   display: flex;
+  list-style-type: none;
+  margin-block: 0;
+  padding-inline-start: 0;
 }

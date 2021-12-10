@@ -8,18 +8,11 @@
   margin: 0 auto;
 }
 
-@media screen and (max-width: 780px) {
+@media screen and (max-width: 470px) {
   /* стили для малого смартфона */
   .lead__subtitle {
-    font-size: 25px;
+    font-size: calc(25px + (30 - 25) * ((100vw - 288px) / (470 - 288)));
     line-height: 122%;
-  }
-}
-
-@media screen and (max-width: 480px) {
-  /* стили для малого смартфона */
-  .lead__subtitle {
-    font-size: 20px;
   }
 }
 
@@ -28,5 +21,6 @@
   .lead__subtitle {
     font-size: 16px;
     line-height: 125%;
+    padding-top: 16px;
   }
 }

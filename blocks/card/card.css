@@ -7,14 +7,14 @@
   justify-items: stretch;
 }
 
-@media screen and (max-width: 1050px) {
+@media screen and (max-width: 1024px) {
   /* стили для планшета в альбомной ориентации */
   .card {
     grid-template-columns: minmax(min-content, 440px) 1fr;
     grid-gap: 48px 32px;
   }
 }
-@media screen and (max-width: 840px) {
+@media screen and (max-width: 768px) {
   /* стили для планшета */
   .card {
     grid-template-columns: minmax(min-content, 340px) 1fr;
@@ -22,12 +22,12 @@
     padding-bottom: 73px;
   }
 }
-@media screen and (max-width: 580px) {
+@media screen and (max-width: 471px) {
   /* стили для широкого смартфона */
   .card {
     grid-template-columns: minmax(min-content, 1fr) 1fr;
     grid-template-columns: none;
     gap: 32px;
-    padding-bottom: 0;
+    padding-bottom: 50px;
   }
 }

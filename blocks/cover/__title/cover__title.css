@@ -4,17 +4,18 @@
   text-align: center;
   font-size: 72px;
   font-weight: 900;
+  max-width: 560px;
+  margin: 0 auto;
 }
 
-@media screen and (max-width: 580px) {
+@media screen and (max-width: 768px) {
   /* стили для малого смартфона */
   .cover__title {
-    line-height: 109%;
-    font-size: 48px;
+    font-size: calc(32px + (72 - 32) * ((100vw - 288px) / (768 - 288)));
   }
 }
 
-@media screen and (max-width: 380px) {
+@media screen and (max-width: 350px) {
   /* стили для малого смартфона */
   .cover__title {
     line-height: 109%;

@@ -3,7 +3,7 @@
   line-height: 163%;
 }
 
-@media screen and (max-width: 780px) {
+@media screen and (max-width: 768px) {
   /* стили для планшета */
   .card__text {
     font-size: 16px;

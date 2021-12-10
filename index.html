@@ -10,12 +10,12 @@
   <body class="page">
     <header class="header">
       <img class="logo" src="./images/logo.svg" alt="Россия" />
-      <div class="header__list">
-        <p class="header__lang header__lang-link">Ru</p>
-        <p class="header__lang-link">En</p>
-      </div>
+      <ul class="header__list">
+        <li><a href="#" class="header__lang header__lang-link">Ru</a></li>
+        <li><a href="#" class="header__lang-link">En</a></li>
+      </ul>
     </header>
-    <main class="content">
+    <main>
       <section class="lead">
         <h1 class="lead__title">Путешествия по&nbsp;России</h1>
         <p class="lead__subtitle">
@@ -25,7 +25,7 @@
         <p class="lead__caption">ваша полка — верхняя</p>
       </section>
       <section class="intro">
-        <h2 class="intro__title">Чего мы там не видели?</h2>
+        <h2 class="intro__title">Чего мы там не&nbsp;видели?</h2>
         <p class="intro__text">
           По&nbsp;опросам ВЦИОМ, 95% россиян мечтают куда-нибудь поехать,
           но&nbsp;только 36% планируют провести отпуск в&nbsp;родной стране.
@@ -41,18 +41,21 @@
           отпуска.
         </p>
         <ol class="intro__list">
-          <li><span class="bold">Часовых поясов </span>11</li>
+          <li><span class="intro__bold">Часовых поясов </span>11</li>
           <li>
-            <span class="bold">Объектов природного наследия ЮНЕСКО </span>12
+            <span class="intro__bold">Объектов природного наследия ЮНЕСКО </span
+            >12
           </li>
           <li>
-            <span class="bold">Объектов культурного наследия ЮНЕСКО </span>16
+            <span class="intro__bold"
+              >Объектов культурного наследия ЮНЕСКО </span
+            >16
           </li>
-          <li><span class="bold">Природных заповедников </span>105</li>
-          <li><span class="bold">Аэропортов </span>241</li>
+          <li><span class="intro__bold">Природных заповедников </span>105</li>
+          <li><span class="intro__bold">Аэропортов </span>241</li>
         </ol>
       </section>
-      <section class="photo-grid" aria-label="Close">
+      <section class="photo-grid" aria-label="Картинки по России">
         <img
           src="./images/photo__item1.jpg"
           alt="картинка1"
@@ -116,7 +119,7 @@
       </section>
       <section class="places">
         <div class="card">
-          <h2 class="card__title">Куршская коса</h2>
+          <h2 class="card__title">Куршская коса&nbsp;&nbsp;</h2>
           <div class="card__website">
             <p class="card__url">URL</p>
             <a href="http://park-kosa.ru" class="card__link" target="_blank"
@@ -137,8 +140,8 @@
               анклава.
             </p>
             <p class="card__paragraph">
-              На&nbsp;этом Калининградская область не&nbsp;заканчивается. Для
-              путешественника и&nbsp;исследователя там&nbsp;же по
+              На&nbsp;этом Калининградская область не&nbsp;заканчивается.
+              Для&nbsp;путешественника и&nbsp;исследователя там&nbsp;же по
               соседству&nbsp;&mdash; самая западная точка России, Балтийская
               коса,&nbsp;&mdash; и&nbsp;немецкое наследие россыпи небольших
               приморских городов. Атмосфера здешних мест исключает суету, окуная
@@ -174,7 +177,7 @@
               Возможно, вы&nbsp;смотрели Звягинцева и&nbsp;даже слышали историю
               арктического фестиваля в&nbsp;Териберке. Возможно, слово
               &laquo;Хибины&raquo; не осталось под снегом школьных воспоминаний
-              об&nbsp;уроках географии. Возможно, вы&nbsp;не&nbsp;интересовались
+              об&nbsp;уроках географии. Возможно, вы&nbsp;не интересовались
               пронизывающей земную кору сверхглубокой скважиной,
               а&nbsp;от&nbsp;апатитов вас давно накрывает апатия. Но&nbsp;ваша
               мечта увидеть северное сияние начинает сбываться с&nbsp;билетом
@@ -241,8 +244,8 @@
             <p class="card__paragraph">
               Конечно, это всё так. Но&nbsp;Байкал ещё идеальное место для
               соревнований по&nbsp;скийорингу. Это такой вид спорта, когда
-              лыжник привязывает себя к&nbsp;мотоциклу, и&nbsp;тандем старается
-              развить как можно б&oacute;льшую скорость на&nbsp;льду.
+              лыжник привязывает&nbsp;себя&nbsp;к&nbsp;мотоциклу, и&nbsp;тандем старается
+              развить как&nbsp;можно&nbsp;большую скорость на&nbsp;льду.
               В&nbsp;марте 2019 года на фестивале &laquo;Байкальская миля&raquo;
               был поставлен мировой рекорд&nbsp;&mdash; 197.011&nbsp;км/ч.
             </p>
@@ -278,61 +281,72 @@
           </div>
         </div>
       </section>
-      <section class="cover">
+      <section class="cover cover__background">
+        <img
+          src="./images/cover__background.jpg"
+          alt="До Байкала «на собаках»"
+          class="cover__images"
+        />
         <a
           href="https://stampsy.com/na-elektrichkakh-do-baikala"
           target="_blank"
           class="cover__overley"
-        ></a>
-        <div class="cover__background">
-          <h2 class="cover__title">
+          ><h2 class="cover__title">
             До&nbsp;Байкала &laquo;на&nbsp;собаках&raquo;
           </h2>
           <p class="cover__subtitle">
-            По&nbsp;мотивам учебной темы о Транссибе &mdash; путешествие
-            от&nbsp;столицы до Байкала на&nbsp;электричках.
-          </p>
-        </div>
+            По&nbsp;мотивам учебной темы о&nbsp;Транссибе &mdash;путешествие
+            от столицы&nbsp;до&nbsp;Байкала&nbsp;на&nbsp;электричках.
+          </p></a
+        >
       </section>
     </main>
-    <footer class="footer">
-      <ul class="footer__links">
-        <li>
-          <a href="https://yandex.ru/maps" target="_blank" class="footer__link"
-            >Карты</a
-          >
-        </li>
-        <li>
-          <a
-            href="https://yandex.ru/pogoda"
-            target="_blank"
-            class="footer__link"
-            >Погода</a
-          >
-        </li>
-        <li>
-          <a href="https://rasp.yandex.ru" target="_blank" class="footer__link"
-            >Расписание</a
-          >
-        </li>
-        <li>
-          <a
-            href="https://calendar.yandex.ru"
-            target="_blank"
-            class="footer__link"
-            >Календарь</a
-          >
-        </li>
-        <li>
-          <a
-            href="https://travel.yandex.ru"
-            target="_blank"
-            class="footer__link"
-            >Путешествия</a
-          >
-        </li>
-      </ul>
-      <p class="footer__copyright">&copy; 2021. Любовь Васильева</p>
+    <footer>
+      <nav class="footer">
+        <ul class="footer__links">
+          <li>
+            <a
+              href="https://yandex.ru/maps"
+              target="_blank"
+              class="footer__link"
+              >Карты</a
+            >
+          </li>
+          <li>
+            <a
+              href="https://yandex.ru/pogoda"
+              target="_blank"
+              class="footer__link"
+              >Погода</a
+            >
+          </li>
+          <li>
+            <a
+              href="https://rasp.yandex.ru"
+              target="_blank"
+              class="footer__link"
+              >Расписание</a
+            >
+          </li>
+          <li>
+            <a
+              href="https://calendar.yandex.ru"
+              target="_blank"
+              class="footer__link"
+              >Календарь</a
+            >
+          </li>
+          <li>
+            <a
+              href="https://travel.yandex.ru"
+              target="_blank"
+              class="footer__link"
+              >Путешествия</a
+            >
+          </li>
+        </ul>
+        <p class="footer__copyright">&copy; 2021. Любовь Васильева</p>
+      </nav>
     </footer>
   </body>
 </html>

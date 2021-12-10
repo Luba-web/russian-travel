@@ -3,3 +3,17 @@
   max-width: 100%;
   padding-top: 64px;
 }
+
+@media screen and (max-width: 1024px) {
+  /* стили для малого смартфона */
+  .lead__image {
+    padding-top: 56px;
+  }
+}
+
+@media screen and (max-width: 425px) {
+  /* стили для малого смартфона */
+  .lead__image {
+    padding-top: 40px;
+  }
+}
