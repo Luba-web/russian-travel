@@ -3,10 +3,3 @@
   letter-spacing: 2px;
   padding-bottom: 12px;
 }
-
-@media screen and (max-width: 350px) {
-  /* стили для малого смартфона */
-  .card__url {
-    letter-spacing: 0;
-  }
-}

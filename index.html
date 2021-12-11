@@ -11,7 +11,9 @@
     <header class="header">
       <img class="logo" src="./images/logo.svg" alt="Россия" />
       <ul class="header__list">
-        <li><a href="#" class="header__lang header__lang-link">Ru</a></li>
+        <li>
+          <a href="#" class="header__lang-link header__lang-link_active">Ru</a>
+        </li>
         <li><a href="#" class="header__lang-link">En</a></li>
       </ul>
     </header>
@@ -40,7 +42,7 @@
           Мы&nbsp;выбрали и описали некоторые интересные места, достойные вашего
           отпуска.
         </p>
-        <ol class="intro__list">
+        <ul class="intro__list">
           <li><span class="intro__bold">Часовых поясов </span>11</li>
           <li>
             <span class="intro__bold">Объектов природного наследия ЮНЕСКО </span
@@ -53,7 +55,7 @@
           </li>
           <li><span class="intro__bold">Природных заповедников </span>105</li>
           <li><span class="intro__bold">Аэропортов </span>241</li>
-        </ol>
+        </ul>
       </section>
       <section class="photo-grid" aria-label="Картинки по России">
         <img
@@ -244,10 +246,11 @@
             <p class="card__paragraph">
               Конечно, это всё так. Но&nbsp;Байкал ещё идеальное место для
               соревнований по&nbsp;скийорингу. Это такой вид спорта, когда
-              лыжник привязывает&nbsp;себя&nbsp;к&nbsp;мотоциклу, и&nbsp;тандем старается
-              развить как&nbsp;можно&nbsp;большую скорость на&nbsp;льду.
-              В&nbsp;марте 2019 года на фестивале &laquo;Байкальская миля&raquo;
-              был поставлен мировой рекорд&nbsp;&mdash; 197.011&nbsp;км/ч.
+              лыжник привязывает&nbsp;себя к&nbsp;мотоциклу,&nbsp;и&nbsp;тандем
+              старается развить как можно большую скорость
+              на&nbsp;льду. В&nbsp;марте 2019 года на фестивале
+              &laquo;Байкальская миля&raquo; был поставлен мировой
+              рекорд&nbsp;&mdash; 197.011&nbsp;км/ч.
             </p>
           </div>
         </div>
@@ -281,12 +284,7 @@
           </div>
         </div>
       </section>
-      <section class="cover cover__background">
-        <img
-          src="./images/cover__background.jpg"
-          alt="До Байкала «на собаках»"
-          class="cover__images"
-        />
+      <section class="cover">
         <a
           href="https://stampsy.com/na-elektrichkakh-do-baikala"
           target="_blank"
@@ -295,14 +293,14 @@
             До&nbsp;Байкала &laquo;на&nbsp;собаках&raquo;
           </h2>
           <p class="cover__subtitle">
-            По&nbsp;мотивам учебной темы о&nbsp;Транссибе &mdash;путешествие
-            от столицы&nbsp;до&nbsp;Байкала&nbsp;на&nbsp;электричках.
+            По&nbsp;мотивам учебной темы о&nbsp;Транссибе &mdash;путешествие от
+            столицы&nbsp;до&nbsp;Байкала&nbsp;на&nbsp;электричках.
           </p></a
         >
       </section>
     </main>
-    <footer>
-      <nav class="footer">
+    <footer class="footer">
+      <nav>
         <ul class="footer__links">
           <li>
             <a
@@ -345,8 +343,8 @@
             >
           </li>
         </ul>
-        <p class="footer__copyright">&copy; 2021. Любовь Васильева</p>
       </nav>
+      <p class="footer__copyright">&copy; 2021. Любовь Васильева</p>
     </footer>
   </body>
 </html>

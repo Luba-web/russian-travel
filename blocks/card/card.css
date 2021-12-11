@@ -14,15 +14,23 @@
     grid-gap: 48px 32px;
   }
 }
-@media screen and (max-width: 768px) {
+
+@media screen and (max-width: 950px) {
   /* стили для планшета */
   .card {
     grid-template-columns: minmax(min-content, 340px) 1fr;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  /* стили для планшета */
+  .card {
     grid-gap: 48px 28px;
     padding-bottom: 73px;
   }
 }
-@media screen and (max-width: 471px) {
+
+@media screen and (max-width: 700px) {
   /* стили для широкого смартфона */
   .card {
     grid-template-columns: minmax(min-content, 1fr) 1fr;
